@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shree Hari Photo State &amp; Money Transfer - Rudrapur</title>
+  <meta name="description" content="Photocopy, money transfer, mini statement and BOB / IOB account opening in Shimla Bahadur, Rudrapur. Open daily 8 AM to 8 PM.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a class="brand" href="#top" id="brand-name">Shree Hari</a>
+    <button class="menu-btn" id="menu-btn" aria-label="Menu">&#9776;</button>
+    <nav class="links" id="links">
+      <a href="#services">Services</a>
+      <a href="#why">Why us</a>
+      <a href="#timings">Timings</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">PHOTOCOPY &bull; MONEY TRANSFER &bull; ACCOUNT OPENING</p>
+        <h1 id="hero-title">Shree Hari Photo State &amp; Money Transfer</h1>
+        <p class="tagline" id="tagline"></p>
+        <div class="hero-btns">
+          <a class="btn btn-wa" id="hero-wa" target="_blank" rel="noopener">Chat on WhatsApp</a>
+          <a class="btn btn-call" id="hero-call">Call now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="stats"></section>
+
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+      <p class="section-sub">Tap a service to see what you need to bring.</p>
+      <div id="service-grid" class="grid"></div>
+      <p class="note">Note: required documents and charges can vary by service and bank. Please call or message us before you visit to confirm.</p>
+    </section>
+
+    <section id="why" class="section alt">
+      <h2>Why choose us</h2>
+      <div class="why-grid">
+        <div class="why-card"><div class="why-ico">&#9889;</div><h3>Fast service</h3><p>Quick work so you do not have to wait around.</p></div>
+        <div class="why-card"><div class="why-ico">&#127942;</div><h3 id="why-years">Trusted locally</h3><p>Serving the Shimla Bahadur area for years.</p></div>
+        <div class="why-card"><div class="why-ico">&#128176;</div><h3>Fair prices</h3><p>Clear charges, no surprises at the counter.</p></div>
+        <div class="why-card"><div class="why-ico">&#129309;</div><h3>Friendly help</h3><p>We guide you step by step with your forms and documents.</p></div>
+      </div>
+    </section>
+
+    <section id="timings" class="section">
+      <h2>Timings &amp; Location</h2>
+      <div class="two-col">
+        <div class="box">
+          <h3>Opening hours</h3>
+          <table class="time-table" id="time-table"></table>
+        </div>
+        <div class="box">
+          <h3>Address</h3>
+          <p id="address"></p>
+          <div id="map-wrap"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <h2>Contact us</h2>
+      <p class="section-sub">Fill the form and your message will open in WhatsApp, ready to send.</p>
+      <div class="two-col">
+        <form id="enquiry" class="box form">
+          <label>Your name
+            <input type="text" id="f-name" required placeholder="Enter your name">
+          </label>
+          <label>Mobile number
+            <input type="tel" id="f-phone" inputmode="numeric" maxlength="10" pattern="[0-9]{10}" required placeholder="10 digit number">
+          </label>
+          <label>Service needed
+            <select id="f-service"></select>
+          </label>
+          <label>Message (optional)
+            <textarea id="f-msg" rows="3" placeholder="Anything else you want to tell us"></textarea>
+          </label>
+          <button type="submit" class="btn btn-wa full">Send on WhatsApp</button>
+        </form>
+        <div class="box contact-info">
+          <h3>Talk to us directly</h3>
+          <p><b>Phone / WhatsApp:</b> <a id="c-phone"></a></p>
+          <p id="c-email-row" class="hidden"><b>Email:</b> <a id="c-email"></a></p>
+          <p><b>Address:</b> <span id="c-address"></span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> <span id="foot-name">Shree Hari Photo State &amp; Money Transfer</span>. All rights reserved.</p>
+    <p class="muted small">Required documents and charges may vary by service.</p>
+  </footer>
+
+  <a id="float-wa" class="float-wa" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
